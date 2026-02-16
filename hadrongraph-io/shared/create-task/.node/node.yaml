@@ -1,0 +1,17 @@
+name: create-task
+alias: create-hadron-task
+description: Create a new Hadron task node in `.hadron`
+
+tags:
+  - generate
+
+actions:
+  - name: run
+    description: Create a new Hadron task node
+    args:
+      - name: path
+        type: string
+        description: the full path of the task (e.g., `mycompany.io.superapp.add-missing-imports`)
+      - name: task_type
+        type: string
+        description: the type of task (e.g., `clean`, `generate`, `review`)

@@ -1,0 +1,2 @@
+name: hadron-node-path
+description: The format of a Hadron node path and how it maps to a file location in `.hadron`.

@@ -1,0 +1,10 @@
+name: hadron-core
+description: Core Hadron graph — shared topics and tasks provided by Hadron Graph
+version: "0.1.0"
+
+owner: holger@baragaun.com
+license: proprietary
+homepage: https://hadrongraph.io
+
+provides:
+  - hadrongraph-io

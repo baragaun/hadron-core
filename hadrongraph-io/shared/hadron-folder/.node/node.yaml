@@ -1,0 +1,11 @@
+name: hadron-folder
+description: What the Hadron folder contains and how it is structured.
+
+tags:
+  - hadron
+
+nodes:
+  - loc: hadrongraph-io.shared.hadron-node-path
+    rel: How a node's dotted path maps to its file location
+  - loc: hadrongraph-io.shared.topic-graph
+    rel: How nodes reference each other to form a knowledge graph

@@ -1,0 +1,13 @@
+name: topic-graph
+description: How nodes form a knowledge graph with levels and relationships for progressive learning.
+
+tags:
+  - topic
+  - graph
+  - knowledge-graph
+  - learning
+  - metadata
+
+nodes:
+  - loc: hadrongraph-io.shared.what-is-hadron
+    rel: Provides the high-level context of what Hadron is
