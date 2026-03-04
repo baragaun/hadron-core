@@ -1,0 +1,13 @@
+id: 019ca1561347784baa721fbb93d0adc5
+name: Create Topic
+alias: create-hadron-topic
+description: Create a new Hadron topic node
+tags:
+  - generate
+actions:
+  - name: run
+    description: Create a new Hadron topic node
+    args:
+      - name: path
+        type: string
+        description: the full path of the topic (e.g., `mycompany.io.superapp.user-authentication`)

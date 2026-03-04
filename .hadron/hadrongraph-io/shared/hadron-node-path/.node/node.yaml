@@ -1,0 +1,3 @@
+id: 019ca156134874278eca11257dbcedf1
+name: Hadron Node Path
+description: The format of a Hadron node path and how it maps to a file location in `.hadron`.

@@ -1,0 +1,16 @@
+id: 019ca156134874278eca1126013e287b
+name: Refine Task
+description: Refine an existing Hadron task for optimal LLM execution - clear, concise, executable instructions.
+tags:
+  - task
+  - refinement
+  - llm
+  - optimization
+  - documentation
+actions:
+  - name: run
+    description: Refine an existing Hadron task
+    args:
+      - name: path
+        type: string
+        description: the full path of the task to refine (e.g., `mycompany.io.superapp.add-missing-imports`)

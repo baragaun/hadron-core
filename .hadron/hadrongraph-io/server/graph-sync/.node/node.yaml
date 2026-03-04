@@ -1,0 +1,19 @@
+id: 24844f955f644eccbb483b1437e88457
+name: Graph Sync
+description: How graphs are cloned from GitHub, parsed from the filesystem, and upserted into the database.
+
+tags:
+  - sync
+  - github
+  - filesystem
+  - graphs
+
+nodes:
+  - id: dfa55d13fd104a9db7cf072b06404050
+    rel: The controller that runs graph sync on startup and on demand
+  - id: d46cf0ba1eb94778bead59995229c738
+    rel: Where graph sources (git URLs, paths) are defined
+  - id: f99636a4f7c7475e9278802cbec0aa36
+    rel: The Node/Edge/PendingEdge models that receive the synced data
+  - id: 6da8e2744b6c44fd947a23f71bb6798b
+    rel: How edges to not-yet-synced nodes are parked and resolved

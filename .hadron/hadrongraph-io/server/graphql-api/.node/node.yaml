@@ -1,0 +1,15 @@
+id: e52a8248339549e0bac7544c5888821a
+name: GraphQL API
+description: The GraphQL and REST endpoints exposed by the Hadron Controller — queries, mutations, and authentication.
+
+tags:
+  - api
+  - graphql
+  - rest
+  - apollo
+
+nodes:
+  - id: dfa55d13fd104a9db7cf072b06404050
+    rel: The controller that exposes these endpoints
+  - id: f99636a4f7c7475e9278802cbec0aa36
+    rel: The data models that back these queries and mutations

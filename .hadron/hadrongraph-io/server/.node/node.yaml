@@ -1,0 +1,12 @@
+id: e48a936591ad4b2f8442c227ebb97e0a
+name: Server
+description: The Hadron server — controller, graph sync, database, and API topics for deploying and operating Hadron.
+
+tags:
+  - server
+  - hadron
+  - infrastructure
+
+nodes:
+  - id: 019ca15613467710b6daf8fb04d18760
+    rel: The top-level Hadron knowledge base this server implements

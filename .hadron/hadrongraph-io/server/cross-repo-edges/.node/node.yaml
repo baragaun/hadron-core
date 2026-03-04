@@ -1,0 +1,15 @@
+id: 6da8e2744b6c44fd947a23f71bb6798b
+name: Cross-Repo Edges
+description: How edges to nodes in other (not-yet-synced) repos are parked as PendingEdges and resolved when the target arrives.
+
+tags:
+  - edges
+  - cross-repo
+  - pending
+  - sync
+
+nodes:
+  - id: f99636a4f7c7475e9278802cbec0aa36
+    rel: The PendingEdge table that implements this pattern
+  - id: 24844f955f644eccbb483b1437e88457
+    rel: Graph sync is where PendingEdges are created and resolved

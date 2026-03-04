@@ -1,0 +1,15 @@
+id: f99636a4f7c7475e9278802cbec0aa36
+name: Database Model
+description: The Prisma database schema — Node, Edge, PendingEdge, Session, UsageEvent, Client, and User models.
+
+tags:
+  - database
+  - prisma
+  - schema
+  - models
+
+nodes:
+  - id: dfa55d13fd104a9db7cf072b06404050
+    rel: The controller that owns and manages this data model
+  - id: 6da8e2744b6c44fd947a23f71bb6798b
+    rel: The PendingEdge table that handles cross-repo edges

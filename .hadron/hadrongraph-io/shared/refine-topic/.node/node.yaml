@@ -1,0 +1,17 @@
+id: 019ca156134874278eca11273717d901
+name: Refine Topic
+description: Refine an existing Hadron topic for optimal LLM consumption - concise, focused, context-efficient.
+tags:
+  - task
+  - topic
+  - refinement
+  - llm
+  - optimization
+  - documentation
+actions:
+  - name: run
+    description: Refine an existing Hadron topic
+    args:
+      - name: path
+        type: string
+        description: the full path of the topic to refine (e.g., `mycompany.io.superapp.user-authentication`)

@@ -1,0 +1,21 @@
+id: dfa55d13fd104a9db7cf072b06404050
+name: Controller
+description: The Hadron Controller — a Node.js/Express/Apollo GraphQL server that hosts graphs, records telemetry, and authenticates users and machine clients.
+
+tags:
+  - server
+  - architecture
+  - graphql
+  - express
+
+nodes:
+  - id: e48a936591ad4b2f8442c227ebb97e0a
+    rel: Parent node — the server category this controller belongs to
+  - id: 24844f955f644eccbb483b1437e88457
+    rel: How graphs are cloned from GitHub and loaded into the database
+  - id: f99636a4f7c7475e9278802cbec0aa36
+    rel: The Prisma schema that stores all graph data
+  - id: e52a8248339549e0bac7544c5888821a
+    rel: The GraphQL and REST API this controller exposes
+  - id: d46cf0ba1eb94778bead59995229c738
+    rel: How to configure which graphs the controller syncs

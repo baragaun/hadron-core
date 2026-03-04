@@ -1,6 +1,0 @@
-name: shared
-description: Shared Hadron conventions, formats, and task definitions that apply across all projects using Hadron.
-
-tags:
-  - conventions
-  - shared

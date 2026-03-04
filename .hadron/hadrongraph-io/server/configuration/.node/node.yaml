@@ -1,0 +1,12 @@
+id: d46cf0ba1eb94778bead59995229c738
+name: Configuration
+description: How to configure the Hadron Controller — .hadron-controller.yaml format and environment variables.
+
+tags:
+  - configuration
+  - environment
+  - setup
+
+nodes:
+  - id: dfa55d13fd104a9db7cf072b06404050
+    rel: The controller that reads this configuration

@@ -1,0 +1,10 @@
+id: 019ca1561347784baa721fbce36b15fb
+name: Hadron Folder
+description: What the Hadron folder contains and how it is structured.
+tags:
+  - hadron
+nodes:
+  - rel: How a node's dotted path maps to its file location
+    id: 019ca156134874278eca11257dbcedf1
+  - rel: How nodes reference each other to form a knowledge graph
+    id: 019ca15613497ca6bc1e48ce16b2811c
